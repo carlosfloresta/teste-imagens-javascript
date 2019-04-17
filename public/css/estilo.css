@@ -1,0 +1,45 @@
+.conteudo {
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 650px){
+    .conteudo {
+        margin:auto; 
+        flex-direction: column;
+    }
+}
+
+.img-margem {
+    margin: auto;
+}
+
+.conteudo .img-margem img {
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border:  10px solid;
+    position: relative;
+    max-width: 300px;
+    max-height:300px;
+    width: 100%;
+    height: auto;
+}
+
+.name{
+    padding:15px 35px;
+    bottom: 0;
+    left: 0;
+    opacity:0;
+    position: relative;
+    width: 50px;
+}
+
+.img-margem:hover .name{
+    background-color:#6E6E6E;
+    color:white;
+    opacity:1;
+
+}

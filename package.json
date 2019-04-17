@@ -1,0 +1,15 @@
+{
+  "name": "vianuvem-frontend-test",
+  "version": "0.0.1",
+  "description": "A server for the Vianuvem Frontend Test",
+  "main": "index.js",
+  "keywords": [
+    "vianuvem"
+  ],
+  "author": "Murillo de Morais",
+  "dependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "clone": "^2.1.1"
+  }
+}
